@@ -101,7 +101,7 @@ header {
     color: #ffffff;
     background-image: url(../img/bg.png);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     padding: 142px 0;
     margin-bottom: 140px;
 }
@@ -157,42 +157,42 @@ header {
 
 .banner-box {
     background-image: url(../img/baner.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    color: #FFFFFF;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-bottom: 120px;
+    background-position: center center;
+    padding: 100px;
 }
 
 .banner-title {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 60px;
 }
 
 .banner-title span {
-    text-transform: uppercase;
-    background-color: #F37335;
-    font-weight: 500;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    padding: 5px 22px 5px 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #F37335;
     border-radius: 14px;
-}
-
-.banner-title p {
-    font-weight: 900;
-    font-size: 60px;
-    margin: 0;
-    padding: 6px 0 15px 0;
+    padding: 5px 0;
+    display: block;
+    max-width: 96px;
+    text-align: center;
+    margin-bottom: 9px;
 }
 
 .banner-text {
-    margin: 0 0 20px 0;
-    max-width: 308px;
+    color: #FAF9F9;
+    max-width: 323px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    line-height: 1.5;
-    padding-bottom: 17px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 35px;
 }
 
 .banner-link {
@@ -203,5 +203,5 @@ header {
     background-color: #FBB731;
     color: #1E2F40;
     border-radius: 5px;
-    padding: 20px 25px;
+    padding: 20px 27px;
 }
