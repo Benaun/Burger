@@ -22,6 +22,13 @@ header {
     padding-bottom: 25px;
 }
 
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 69%;
+}
+
 .header-nav {
     display: flex;
     list-style-type: none;
@@ -204,7 +211,13 @@ header {
     background-color: #FBB731;
     color: #1E2F40;
     border-radius: 5px;
-    padding: 20px 27px;
+    padding: 18px 25px;
+    border: 1px solid #FBB731;
+}
+
+.banner-link:hover {
+    background-color: transparent;
+    color: #FBB731;
 }
 
 
@@ -295,6 +308,11 @@ header {
     position: relative;
 }
 
+.btn:hover {
+    cursor: pointer;
+    background: #F37335;
+}
+
 .menu-icon {
     background-image: url(../img/menu-cart.svg);
     height: 18px;
@@ -359,32 +377,45 @@ header {
     margin-bottom: 19px;
 }
 
-.footer-item li {
+.footer-list li {
     margin-bottom: 9px;
-    font-family: 'Open Sans';;
+    font-family: 'Open Sans';
     font-size: 15px;
     color: #FAF9F9;
     font-weight: 700;
     line-height: 24px;
 }
-.footer-item a {
+.footer-list a {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
 }
+
+.footer-list a:hover {
+    color: #FBB731;
+}
+
 .footer-item span {
     color: #DEDEDE;
     display: block;
     font-weight: 400;
     margin-bottom: 2px;
 }
-.footer-tel ul {
-    font-size: 20px;
-    font-weight: 900;
-    color: #FBB731;
+
+.footer-list-tel {
     margin-top: 0;
 }
-.footer-tel li {
+
+.footer-list-tel li {
     margin-bottom: 12px;
 }
 
+.footer-list-tel a {
+    font-size: 20px;
+    font-weight: 900;
+    color: #FBB731;
+}
+
+.footer-list-tel a:hover {
+    color: #DEDEDE;
+}
