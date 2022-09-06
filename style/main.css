@@ -168,7 +168,7 @@ header {
     background-size: cover;
     background-position: center center;
     padding: 100px 100px 120px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .banner-title {
@@ -213,6 +213,7 @@ header {
     border-radius: 5px;
     padding: 18px 25px;
     border: 1px solid #FBB731;
+    transition: 0.4s;
 }
 
 .banner-link:hover {
@@ -222,6 +223,9 @@ header {
 
 
 
+.menu {
+    padding-top: 20px;
+}
 
 .menu-header {
     display: flex;
@@ -306,6 +310,7 @@ header {
     border: none;
     margin: 0 115px;
     position: relative;
+    transition: 0.2s;
 }
 
 .btn:hover {
@@ -418,4 +423,32 @@ header {
 
 .footer-list-tel a:hover {
     color: #DEDEDE;
+}
+
+
+.button-up {
+    background-color: #FBB731;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1E2F40;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    transition: 0.8s;
+}
+
+.button-up:hover {
+    background-color: #F37335;
+}
+
+.button-up.hidden {
+    opacity: 0;
+}
+
+.button-up.visible {
+    opacity: 0.9;
 }
